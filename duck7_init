@@ -1,0 +1,14 @@
+.prompt 'D-7> '
+.rows 100
+.changes on
+.timer on
+-- new in 1.1. default is 953.6 MiB
+set streaming_buffer_size = "953.6 MiB";
+
+set immediate_transaction_mode = false;
+SET preserve_insertion_order = false;
+set max_memory="12GB";
+set memory_limit = "12GB";
+set temp_directory="D:\temp\duckdb";
+set threads=12;
+set worker_threads=12;

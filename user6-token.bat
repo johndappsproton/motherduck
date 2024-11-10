@@ -1,0 +1,9 @@
+echo off
+rem user1-token.bat
+rem
+chcp 65001
+echo this is johndapps@protonmail.com	
+echo userID johndappsPROTON
+set motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiam9obmRhcHBzLnByb3Rvbm1haWwuY29tIiwiZW1haWwiOiJqb2huZGFwcHNAcHJvdG9ubWFpbC5jb20iLCJ1c2VySWQiOiIyNzU5OWZlMy1jMjMwLTRjYzUtYjMwNS01MGZjMjU2MWU4YTQiLCJpYXQiOjE3MTE4MjMyNDMsImV4cCI6MTc0MzM4MDg0M30.8VBiXqLwJVEwulBVkH43U6Mchw4_Wf1kLYKJrDqmo9E
+title USER 6
+prompt user-6$G

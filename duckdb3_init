@@ -1,0 +1,5 @@
+.maxrows 50
+.prompt 'D-3> '
+.changes on
+.timer on
+set memory_limit = "4GB"

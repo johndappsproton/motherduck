@@ -1,0 +1,18 @@
+# md_tokens.py
+
+def md_tokens(user):
+    if user == 'user1':
+        md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiam9obi5kLmFwcHMuZ21haWwuY29tIiwiZW1haWwiOiJqb2huLmQuYXBwc0BnbWFpbC5jb20iLCJ1c2VySWQiOiI3MjYyNzQxMS1lZjE4LTRkNGEtYTg3Ny1iM2U1ZDUxOTRhOWQiLCJpYXQiOjE3MTE4MjIzNTgsImV4cCI6MTc0MzM3OTk1OH0.t8dAyF9GLMxgMSPDGnMKRTO7_FUudxSw0Q3MXlVE8hU"
+    if user == 'user2':
+        md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiam9obmRhcHBzLmdtYWlsLmNvbSIsImVtYWlsIjoiam9obmRhcHBzQGdtYWlsLmNvbSIsInVzZXJJZCI6IjBhOTY3YjFmLWVhZGItNDFmOS04M2I1LWNmYThhMDEzMWRiYSIsImlhdCI6MTcxMTgyMjQyOCwiZXhwIjoxNzQzMzgwMDI4fQ.ilGMY49gBy2bXsSAZ1zBFWQunktnlESb5xiG8pjbIo0"
+    if user == 'user3':
+        md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiam9obi5hcHBzLnNraWZmLmNvbSIsImVtYWlsIjoiam9obi5hcHBzQHNraWZmLmNvbSIsInVzZXJJZCI6ImM4YTI1NjI0LTY1MmEtNGNiZi1iZWI2LWY2YmViYTIwOTU2OCIsImlhdCI6MTcxMTgyMjQ5MiwiZXhwIjoxNzQzMzgwMDkyfQ.GbgeQyEjEKPhfISVYhpHD9a88AXa7BRLvXfUcGXrceg"
+    if user == 'user4':
+        md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiam9obi5hcHBzLm91dGxvb2suY29tIiwiZW1haWwiOiJqb2huLmFwcHNAb3V0bG9vay5jb20iLCJ1c2VySWQiOiJmZjQwM2Q0Yy1kNTVjLTQ1MTQtOGY1Zi0wMzQ4YmNiZTk1MmEiLCJpYXQiOjE3MTE4MjI1MzMsImV4cCI6MTc0MzM4MDEzM30.Hq8raVv3TPcMffYPOszDVWWq4IE0daHaQhaP6L8K-wE"
+    if user == 'user5':
+        md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiam9lLmNoaWVtZ2F1Lm91dGxvb2suY29tIiwiZW1haWwiOiJqb2UuY2hpZW1nYXVAb3V0bG9vay5jb20iLCJ1c2VySWQiOiI0NjE5NDEwMi04Nzg1LTRlYmEtOWMyOS1mZjYyZjFmNmFmMWUiLCJpYXQiOjE3MTE4MjI2MTUsImV4cCI6MTc0MzM4MDIxNX0.q-niiC63ALFdAFohU8TVtSDK1T9YIu0StQHSk7RzfE0"
+    if user == 'user6':
+        md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiam9obmRhcHBzLnByb3Rvbm1haWwuY29tIiwiZW1haWwiOiJqb2huZGFwcHNAcHJvdG9ubWFpbC5jb20iLCJ1c2VySWQiOiIyNzU5OWZlMy1jMjMwLTRjYzUtYjMwNS01MGZjMjU2MWU4YTQiLCJpYXQiOjE3MTE4MjMyNDMsImV4cCI6MTc0MzM4MDg0M30.8VBiXqLwJVEwulBVkH43U6Mchw4_Wf1kLYKJrDqmo9E"
+    if user == 'user7':
+        md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoid29vZy5hbGV4LmFuZHJhLmdtYWlsLmNvbSIsImVtYWlsIjoid29vZy5hbGV4LmFuZHJhQGdtYWlsLmNvbSIsInVzZXJJZCI6ImU1Mzc3OGVjLWZkNTctNDQ1Yy04MWVmLWJmZDU5MzQxYjMyYiIsImlhdCI6MTcyMDYyOTU2NSwiZXhwIjoxNzUyMTg3MTY1fQ.vgiqXfw88vdJQKOTn1gQ7cTopciqEGG3ZNRExpLgTyw"
+    return md_token

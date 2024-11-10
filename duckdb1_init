@@ -1,0 +1,7 @@
+.maxrows 80
+.prompt 'D-1> '
+.changes on
+.timer on
+set memory_limit = "3GB";
+set max_memory="3GB";
+set temp_directory ="$HOME/temp";

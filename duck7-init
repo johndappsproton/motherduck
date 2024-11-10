@@ -1,0 +1,9 @@
+.prompt 'D-7> '
+.rows 100
+.changes on
+.timer on
+set immediate_transaction_mode = true ;
+set temp_directory="D:\temp\duckdb";
+set memory_limit = "4GB";
+set max_memory="4GB";
+set threads=1;

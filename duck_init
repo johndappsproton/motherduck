@@ -1,0 +1,7 @@
+.prompt 'Duck> '
+.rows 100
+.changes on
+.timer on
+set immediate_transaction_mode = true ;
+set memory_limit = "4GB";
+set temp_directory="D:\temp\duckdb";

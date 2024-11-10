@@ -1,0 +1,9 @@
+echo off
+rem user7-token.bat
+rem
+chcp 65001
+echo this is woog.alex.andra@gmail.com
+echo userID sacha
+set motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoid29vZy5hbGV4LmFuZHJhLmdtYWlsLmNvbSIsImVtYWlsIjoid29vZy5hbGV4LmFuZHJhQGdtYWlsLmNvbSIsInVzZXJJZCI6ImU1Mzc3OGVjLWZkNTctNDQ1Yy04MWVmLWJmZDU5MzQxYjMyYiIsImlhdCI6MTcyMDYyOTU2NSwiZXhwIjoxNzUyMTg3MTY1fQ.vgiqXfw88vdJQKOTn1gQ7cTopciqEGG3ZNRExpLgTyw
+title USER 7
+prompt user-7$G

@@ -1,0 +1,8 @@
+.prompt 'D-11> '
+.rows 100
+.changes on
+.timer on
+set immediate_transaction_mode = true ;
+set max_memory = "6GB";
+set memory_limit = "6GB";
+set temp_directory="D:\temp\duckdb";
