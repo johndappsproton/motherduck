@@ -1,3 +1,4 @@
+-- duck11_init
 .prompt 'D-11> '
 .rows 100
 .changes on
